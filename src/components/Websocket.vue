@@ -116,8 +116,8 @@ const format = () => {
 
 const purge = () => {
   records.value = []
-  window.localStorage.setItem('websocat-url-history', JSON.stringify([]))
-  window.localStorage.setItem('websocat-message-history', JSON.stringify([]))
+  // window.localStorage.setItem('websocat-url-history', JSON.stringify([]))
+  // window.localStorage.setItem('websocat-message-history', JSON.stringify([]))
 }
 
 const send = () => {
